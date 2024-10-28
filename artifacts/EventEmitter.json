@@ -1,0 +1,105 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060b48061001e6000396000f3fe6080604052348015600f57600080fd5b50600436106044577c010000000000000000000000000000000000000000000000000000000060003504633ebca8e181146049575b600080fd5b604f6051565b005b60405133907fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9490600090a256fea264697066735822122013c1e4f4be1241914174e1635d5126ace4e98e1e3c726c9352392d0842da75ce64736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB4 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x44 JUMPI PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV PUSH4 0x3EBCA8E1 DUP2 EQ PUSH1 0x49 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x4F PUSH1 0x51 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD CALLER SWAP1 PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 SWAP1 PUSH1 0x0 SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SGT 0xC1 0xE4 DELEGATECALL 0xBE SLT COINBASE SWAP2 COINBASE PUSH21 0xE1635D5126ACE4E98E1E3C726C9352392D0842DA75 0xCE PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+			"sourceMap": "59:189:0:-:0;;;141:16;;;;;;;;;;59:189;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@emitCountLog_18": {
+					"entryPoint": 81,
+					"id": 18,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50600436106044577c010000000000000000000000000000000000000000000000000000000060003504633ebca8e181146049575b600080fd5b604f6051565b005b60405133907fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9490600090a256fea264697066735822122013c1e4f4be1241914174e1635d5126ace4e98e1e3c726c9352392d0842da75ce64736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x44 JUMPI PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV PUSH4 0x3EBCA8E1 DUP2 EQ PUSH1 0x49 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x4F PUSH1 0x51 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD CALLER SWAP1 PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 SWAP1 PUSH1 0x0 SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SGT 0xC1 0xE4 DELEGATECALL 0xBE SLT COINBASE SWAP2 COINBASE PUSH21 0xE1635D5126ACE4E98E1E3C726C9352392D0842DA75 0xCE PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+			"sourceMap": "59:189:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;163:81;;;:::i;:::-;;;211:24;;224:10;;211:24;;;;;163:81::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "36000",
+				"executionCost": "87",
+				"totalCost": "36087"
+			},
+			"external": {
+				"emitCountLog()": "1272"
+			}
+		},
+		"methodIdentifiers": {
+			"emitCountLog()": "3ebca8e1"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "msgSender",
+					"type": "address"
+				}
+			],
+			"name": "WantsToCount",
+			"type": "event"
+		},
+		{
+			"inputs": [],
+			"name": "emitCountLog",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
