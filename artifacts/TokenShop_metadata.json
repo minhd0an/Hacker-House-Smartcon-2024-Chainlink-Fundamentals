@@ -118,7 +118,7 @@
 		"compilationTarget": {
 			"TokenShop.sol": "TokenShop"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

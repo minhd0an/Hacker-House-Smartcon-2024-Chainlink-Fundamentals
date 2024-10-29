@@ -87,7 +87,7 @@
 		"compilationTarget": {
 			"CustomLogic_flattened.sol": "AutomationCompatible"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
